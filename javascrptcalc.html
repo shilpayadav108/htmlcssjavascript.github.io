@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Lets learn Java Script</title>
+	  <style>
+	  #op{
+	     width:55px;
+		 }
+	  #val1,#val2{
+          width:130px;
+         }		  
+	  </style>
+	  <script>
+		     /*hey I am a comment*/
+		  function calc(){		 
+			 var val1=document.getElementById("val1").value;
+			 var val2=document.getElementById("val2").value;
+		      var op=document.getElementById("op").value;
+			 
+			 val1=val1*1;
+			 val2=val2*1;
+			 
+            if(op=='+'){
+			   document.getElementById("result").innerHTML=(val1+val2);
+			}else if(op=='-'){
+			   document.getElementById("result").innerHTML=(val1-val2);
+			}else if(op=='*'){
+			   document.getElementById("result").innerHTML=(val1*val2);
+             }else if(op=='/'){
+			   document.getElementById("result").innerHTML=(val1/val2);
+			}else{
+			  document.getElementById("result").innerHTML="you have entered an incorrect operator";
+			  
+}	
+}		 
+function plus(){
+    var val1=document.getElementById("val1").value;
+    var val2=document.getElementById("val2").value;
+		      
+			 
+			 val1=val1*1;
+			 val2=val2*1;
+			 
+			   document.getElementById("result").innerHTML=(val1+val2);
+      }
+function minus(){
+    var val1=document.getElementById("val1").value;
+    var val2=document.getElementById("val2").value;
+		      
+			 
+			 val1=val1*1;
+			 val2=val2*1;
+			 
+			   document.getElementById("result").innerHTML=(val1-val2);
+      }	
+function mul(){
+    var val1=document.getElementById("val1").value;
+    var val2=document.getElementById("val2").value;
+		      
+			 
+			 val1=val1*1;
+			 val2=val2*1;
+			 
+			   document.getElementById("result").innerHTML=(val1*val2);
+      }
+function div(){
+    var val1=document.getElementById("val1").value;
+    var val2=document.getElementById("val2").value;
+		      
+			 
+			 val1=val1*1;
+			 val2=val2*1;
+			 
+			   document.getElementById("result").innerHTML=(val1/val2);
+      }	  
+	  </script>
+ </head>
+	  <body>
+	     <!-- hey am a comment-->
+	    <input type="number" placeholder="Enter value 1" id="val1">
+		<input type="number" placeholder="Enter value 2" id="val2">
+		<button onClick="plus()">+</button>
+		<button onClick="minus()">-</button>
+		<button onClick="mul()">*</button>		
+		<button onClick="div()">/</button>
+		<span id="result"></span>
+	  </body>
+	  	  
+</html>	  
+	  
+	  
+	  
+	 
+
+	  
+	  
+	  
+	 

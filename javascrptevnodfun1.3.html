@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Lets learn Java Script</title>
+ 
+		<script>
+		     /*hey I am a comment*/	
+          function print(input,id){
+            document.getElementById(id).innerHTML=input;	
+           }
+            function checkEven(n){		   
+			 var result=n%2;
+  			 if(result==0)
+		     {
+			 return 1;
+             }else{
+			  return 0;
+			 }
+		}	 
+	  </script>
+	  </head>
+	 <body>
+	 	  <h1 id="result"></h1>
+		  <button onClick="checkEven(6);">Click</button>
+	  <script>
+	  var num=prompt("enter num");
+	  var answer=checkEven(num);
+	  print(answer,"result");
+	  </script>
+	  </body>	  
+	    	  
+</html>	  
+	  
+	  
+	  
+	 
+
+	  
+	  
+	  
+	 

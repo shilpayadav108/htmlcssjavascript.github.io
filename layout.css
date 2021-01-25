@@ -1,0 +1,38 @@
+body{
+	margin:0;
+}
+#container{
+	width:800px;
+	margin:auto;
+	padding:0;
+	background-color:#00ffff;
+}	
+#header{
+	width:100%;
+	height:120px;
+	margin:auto;
+	padding:0;
+	background-color:#00ffff;
+}	
+#nav{
+	width:100%;
+	height:50px;
+	margin:auto;
+	padding:0;
+	background-color:#ffb9b9;
+}	
+#article{
+	width:100%;
+	height:500px;
+	margin:auto;
+	padding:0;
+	background-color:#85adad;
+}	
+#footer{
+	width:100%;
+	height:50px;
+	margin:auto;
+	padding:0;
+	background-color:#00ffbf;
+}	
+	
